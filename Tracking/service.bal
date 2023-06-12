@@ -12,7 +12,7 @@ import ballerina/http;
 }
 service / on new http:Listener(9090) {
     @display {
-        label: "mysql",
+        label: "tracking-db",
         id: "mysql-3b30c3ee-f0a0-4928-8723-0efd90389799"
     }
     mysql:Client mysqlEp;
