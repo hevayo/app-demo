@@ -1,0 +1,8 @@
+apiVersion: core.choreo.dev/v1alpha1
+kind: ComponentConfig
+metadata:
+  name: Mymain
+  projectName: Crypto
+  annotations:
+    componentType: manualTrigger
+spec: {}

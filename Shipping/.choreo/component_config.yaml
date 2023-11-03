@@ -1,0 +1,15 @@
+apiVersion: core.choreo.dev/v1alpha1
+kind: ComponentConfig
+metadata:
+  name: myBalService
+  projectName: Crypto
+  annotations:
+    componentType: ballerinaService
+spec:
+  inbound:
+    - name: myBalService
+      visibility: Public
+      port: 3000
+      type: REST
+      context: .
+      schemaFilePath: openapi.yaml

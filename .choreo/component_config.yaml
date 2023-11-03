@@ -1,0 +1,8 @@
+apiVersion: core.choreo.dev/v1alpha1
+kind: ComponentConfig
+metadata:
+  name: sample
+  projectName: Crypto
+  annotations:
+    componentType: byocWebAppsDockerfileLess
+spec: {}
